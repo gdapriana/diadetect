@@ -19,12 +19,7 @@ def web(st):
         st.caption(metadata["subtitle"])
         st.image(metadata["image"])
     with container_2:
-        data = patient_information(st)
-        if st.button('Check Now'):
-            if data["name"] == "" or data["age"] <= 0:
-                st.warning('Fill all the form', icon="⚠️")
-            else:
-                st.write(data)
+        patient_information(st)
 
 
 def patient_information(st):
@@ -47,9 +42,13 @@ def patient_information(st):
             glucose_level = int(st.number_input("Glucose Level", step=1))
             skin_thickness = int(st.number_input("Skin Thickness", step=1))
             bmi = float(st.number_input("BMI", step=1))
+
+        if st.button('Check Now'):
+            if name == "" or age <= 0:
+                st.warning('Fill all the form', icon="⚠️")
+            else:
+                st.write({"name": name, "age": age, "pregnancies": pregnancies, "blood_pressure": blood_pressure, "insulin": insulin,
+                          "pedigree_function": pedigree_function, "glucose_level": glucose_level, "skin_thickness": skin_thickness,
+                          "bmi": bmi})
     with tab2:
         st.write("Hehe")
-
-    return {"name": name, "age": age, "pregnancies": pregnancies, "blood_pressure": blood_pressure, "insulin": insulin,
-            "pedigree_function": pedigree_function, "glucose_level": glucose_level, "skin_thickness": skin_thickness,
-            "bmi": bmi}
