@@ -1,0 +1,1 @@
+pregnancies,glucose,bloodpress,skinthick,Insulin,bmi,diabetespedigree,age,outcome
