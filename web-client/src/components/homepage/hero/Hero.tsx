@@ -1,6 +1,6 @@
 import Content from "@/components/homepage/hero/Content";
 import ImageSection from "@/components/homepage/hero/ImageSection";
-import metadata from "@/data/hero";
+import metadata from "@/data/homepage/hero";
 import HeroImage from "@/assets/images/hero.png";
 
 const Hero = () => {
