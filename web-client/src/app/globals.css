@@ -10,3 +10,26 @@
 * {
   font-family: "montserrat", monospace;
 }
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.cutoff-text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+.cutoff-text-1 {
+  -webkit-line-clamp: 1;
+}
+.cutoff-text-2 {
+  -webkit-line-clamp: 2;
+}
+.cutoff-text-3 {
+  -webkit-line-clamp: 3;
+}

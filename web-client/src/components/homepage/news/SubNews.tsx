@@ -1,5 +1,5 @@
-const SubNews = () => {
-  return <div className="rounded-lg border lg:col-span-2">News 3</div>;
+const SubNews = ({ data }: { data: any }) => {
+  return <div className="rounded-lg border lg:col-span-2">{data.title}</div>;
 };
 
 export default SubNews;
