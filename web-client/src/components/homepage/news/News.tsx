@@ -19,7 +19,7 @@ const News = async () => {
   return (
     <main className="w-full flex justify-center items-center" id="_news_root">
       <div
-        className="w-full flex-col gap-8 flex m-8 justify-center items-center max-w-6xl"
+        className="w-full flex-col gap-4 flex m-8 justify-center items-center max-w-6xl"
         id="_news_wrapper"
       >
         <h1 className="text-lg font-bold text-neutral-800 md:text-xl">
@@ -28,7 +28,7 @@ const News = async () => {
         <div className="w-full gap-4 grid grid-cols-1 grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-5">
           <MainNews data={news.articles[0]} />
           <SubNews data={news.articles[1]} />
-          <MoreNews />
+          <MoreNews metadata={metadata} />
           <SubNews data={news.articles[2]} />
         </div>
       </div>
