@@ -25,12 +25,16 @@ const News = async () => {
         <h1 className="text-lg font-bold text-neutral-800 md:text-xl">
           {metadata.title}
         </h1>
-        <div className="w-full gap-4 grid grid-cols-1 grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-5">
-          <MainNews data={news.articles[0]} />
-          <SubNews data={news.articles[1]} />
-          <MoreNews metadata={metadata} />
-          <SubNews data={news.articles[2]} />
-        </div>
+        {news.length == 0 ? (
+          <p>Loading...</p>
+        ) : (
+          <div className="w-full gap-4 grid grid-cols-1 grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-5">
+            <MainNews data={news.articles[0]} />
+            <SubNews data={news.articles[1]} />
+            <MoreNews metadata={metadata} />
+            <SubNews data={news.articles[2]} />
+          </div>
+        )}
       </div>
     </main>
   );
