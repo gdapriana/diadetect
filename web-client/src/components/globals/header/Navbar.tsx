@@ -1,4 +1,4 @@
-import metadata from "@/data/header";
+import metadata from "@/data/global";
 import NavBrand from "@/components/globals/header/NavBrand";
 import Navigations from "@/components/globals/header/Navigations";
 import LoginBtn from "@/components/globals/header/LoginBtn";
@@ -14,7 +14,7 @@ const Navbar = (): any => {
         className="w-full max-w-6xl py-4 mx-8 gap-2 md:gap-12 flex justify-between items-center"
         id="_navbar_wrapper"
       >
-        <NavBrand name={metadata.navbrand.name} link={metadata.navbrand.link} />
+        <NavBrand name={metadata.brand.name} link={metadata.brand.link} />
         <Hamburger />
         <Navigations navigations={metadata.navigations} />
         <LoginBtn login={metadata.login} />
