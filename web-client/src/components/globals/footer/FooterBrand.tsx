@@ -1,56 +1,18 @@
 import Link from "next/link";
-import {
-  RiInstagramFill,
-  RiFacebookFill,
-  RiWhatsappFill,
-  RiTwitterFill,
-  RiLinkedinFill,
-} from "react-icons/ri";
 
 const FooterBrand = ({
-  name,
-  link,
-  social,
+  brand,
 }: {
-  name: string;
-  link: string;
-  social: { name: string; username: string; link: string }[];
+  brand: { name: string | undefined; link: string; description: string };
 }) => {
   return (
     <div className="flex flex-1 flex-col gap-2 justify-center items-start">
-      <Link href={link} className="md:text-xl font-bold text-neutral-200">
-        {name}
+      <Link href={brand.link} className="md:text-xl font-bold text-neutral-200">
+        {brand.name}
       </Link>
-      <div className="flex justify-center items-center">
-        {social.map(
-          (
-            item: { name: string; username: string; link: string },
-            index: number,
-          ) => {
-            return (
-              <Link
-                href={item.link}
-                key={index}
-                className="text-white flex justify-center items-center"
-              >
-                {item.name === "instagram" ? (
-                  <RiInstagramFill fontSize="2rem" />
-                ) : item.name === "facebook" ? (
-                  <RiFacebookFill fontSize="2rem" />
-                ) : item.name === "whatsapp" ? (
-                  <RiWhatsappFill fontSize="2rem" />
-                ) : item.name === "twitter" ? (
-                  <RiTwitterFill fontSize="2rem" />
-                ) : item.name === "linkedin" ? (
-                  <RiLinkedinFill fontSize="2rem" />
-                ) : (
-                  ""
-                )}
-              </Link>
-            );
-          },
-        )}
-      </div>
+      <p className="text-neutral-400 text-sm md:text-base">
+        {brand.description}
+      </p>
     </div>
   );
 };

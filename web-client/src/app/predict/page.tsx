@@ -1,5 +1,7 @@
 const Predict = () => {
-  return <h1>Predict</h1>;
+  return (
+    <main className="w-full flex justify-center items-center flex-col"></main>
+  );
 };
 
 export default Predict;
