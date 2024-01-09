@@ -15,6 +15,7 @@ const ImageSection = ({
         width={1000}
         height={1000}
         className="w-[400px]"
+        priority={true}
       />
     </div>
   );

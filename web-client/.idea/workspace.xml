@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b44c7609-c62a-4651-8a81-4795fd68de4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/predict/Form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/predict/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/predict/ImageSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-backend/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/predict/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/predict/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/predict/parameters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/predict/parameters.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/predict/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/predict/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/predict/ImageSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/predict/ImageSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "/home/gdapriana/workspace/diadetect/web-client/node_modules/prettier",
-    "settings.editor.selected.configurable": "discord-application",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "ts.external.directory.path": "/home/gdapriana/workspace/diadetect/web-client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -67,7 +66,8 @@
       <workItem from="1704241592212" duration="98000" />
       <workItem from="1704241725836" duration="9526000" />
       <workItem from="1704791575168" duration="359000" />
-      <workItem from="1704791986269" duration="10911000" />
+      <workItem from="1704791986269" duration="11511000" />
+      <workItem from="1704816998291" duration="5835000" />
     </task>
     <servers />
   </component>
