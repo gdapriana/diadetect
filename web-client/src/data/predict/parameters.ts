@@ -1,8 +1,9 @@
 const metadata = {
   name: "Predict",
-  subtitle:
-    "In a world driven by data and technology, our Predict feature goes beyond conventional health assessments. Discover a revolutionary approach to healthcare, where we harness the power of advanced algorithms and personalized data analysis to foresee potential health outcomes. Your unique profile, comprising key indicators such as pregnancies, glucose levels, blood pressure, skin thickness, insulin levels, BMI, diabetes pedigree function, and age, is the gateway to unlocking a comprehensive understanding of your health.\n" +
-    "\n",
+  subtitle: "Unlocking Tomorrow: Predicting Your Health with Precision",
+  button: {
+    name: "Predict Now",
+  },
   sources: {
     name: "For Details",
     items: [

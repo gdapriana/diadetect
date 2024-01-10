@@ -8,7 +8,7 @@ const ImageSection = ({
   alt: string;
 }) => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-start items-center">
       <Image
         src={image}
         alt={alt}
