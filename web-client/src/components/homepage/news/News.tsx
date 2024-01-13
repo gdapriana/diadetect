@@ -17,7 +17,10 @@ async function getNews() {
 const News = async () => {
   const news = await getNews();
   return (
-    <main className="w-full flex justify-center items-center" id="_news_root">
+    <main
+      className="w-full flex mb-24 justify-center items-center"
+      id="_news_root"
+    >
       <div
         className="w-full flex-col gap-4 flex m-8 justify-center items-center max-w-6xl"
         id="_news_wrapper"

@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b44c7609-c62a-4651-8a81-4795fd68de4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/predict/Result.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/globals/loading/Loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/predict/PieChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/predict/output.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/predict/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/predict/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/predict/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/predict/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/predict/ImageSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/predict/ImageSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/predict/parameters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/predict/parameters.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/globals/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/globals/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/news/News.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/news/News.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/predict/Result.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/predict/Result.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,9 @@
       <workItem from="1704791575168" duration="359000" />
       <workItem from="1704791986269" duration="11511000" />
       <workItem from="1704816998291" duration="9901000" />
-      <workItem from="1704871139030" duration="1907000" />
+      <workItem from="1704871139030" duration="2346000" />
+      <workItem from="1704903037026" duration="3167000" />
+      <workItem from="1705078926385" duration="9046000" />
     </task>
     <servers />
   </component>
@@ -81,14 +87,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/predict/page.tsx</url>
-          <line>9</line>
-          <properties lambdaOrdinal="-1" />
+          <line>31</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/predict/page.tsx</url>
-          <line>19</line>
-          <properties lambdaOrdinal="-1" />
+          <line>41</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

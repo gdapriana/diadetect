@@ -5,8 +5,30 @@ import metadata from "@/data/predict/parameters";
 import predictImage from "@/assets/images/predict.jpg";
 import Header from "@/components/predict/Header";
 import { useState } from "react";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  Tooltip,
+  PointElement,
+  LineElement,
+  ArcElement,
+} from "chart.js";
+import Loading from "@/components/globals/loading/Loading";
+import Result from "@/components/predict/Result";
+
+// Register ChartJS components using ChartJS.register
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Tooltip,
+  ArcElement,
+);
 
 const Predict = () => {
+  const [loading, setLoading] = useState(false);
   const [inputData, setInputData] = useState({
     prg: "",
     glu: "",
@@ -38,12 +60,11 @@ const Predict = () => {
             setResult={setResult}
           />
         </div>
+      ) : loading ? (
+        <Loading />
       ) : (
-        <div
-          className="max-w-6xl w-full bg-red-200 py-8 mx-8"
-          id="_predict_wrapper"
-        >
-          <div className="">{result.value}</div>
+        <div className="max-w-6xl w-full py-8 mx-8" id="_predict_wrapper">
+          <Result result={result} setResult={setResult} userInput={inputData} />
         </div>
       )}
     </main>
