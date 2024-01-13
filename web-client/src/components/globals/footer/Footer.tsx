@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div
       id="_navbar_root"
-      className="w-full bg-neutral-800 z-10 mt-24 flex justify-center items-center"
+      className="w-full bg-neutral-800 z-10 flex justify-center items-center"
     >
       <div className="w-full max-w-6xl gap-8 py-16 mx-12 flex flex-col">
         <div
