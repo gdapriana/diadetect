@@ -21,8 +21,8 @@
 | `Skin thickness` | Measurement of skinfold thickness is typically done by healthcare professionals using a tool called a skinfold caliper. | Refers to the thickness of a fold of skin at a specific location on the body. |
 | `Insulin levels` | Insulin levels are measured through blood tests conducted in healthcare laboratories. | The amount of insulin in the blood, a hormone crucial for regulating blood sugar. |
 | `BMI (Body Mass Index)` | BMI is calculated based on weight and height measurements. Weight can be measured using scales, and height can be measured using a stadiometer. | A numerical value of a person's weight in relation to their height. |
-| `Diabetes pedigree function` | Information about the family history of diabetes is obtained from the patient. Patients provide details about whether any family members have a history of diabetes. | The age of the individual. |
-| `Age` | Age information is obtained directly from the patient during medical consultations or can be derived from personal identification data. | The number of pregnancies a woman has experienced. |
+| `Diabetes pedigree function` | Information about the family history of diabetes is obtained from the patient. Patients provide details about whether any family members have a history of diabetes. | A function presenting the family history of diabetes and estimating the genetic risk associated with diabetes. |
+| `Age` | Age information is obtained directly from the patient during medical consultations or can be derived from personal identification data. | The age of the individual. |
 
 ## Getting Started
 
